@@ -1,0 +1,228 @@
+*/ {
+    margin: 0;
+    padding: 0;
+}
+
+.bio-container {
+    background-color: #E9E2D2;
+    width: 100%;
+    height: auto; 
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 1rem;
+    padding: 2rem 0 2rem 0;
+    }
+
+.contact {
+    background: url('../Images/contact me bg.jpg');
+    background-size: cover;
+    padding: 2rem 0;
+}
+
+.contact-button-l{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-button-2{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button-3{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.get-in-touch {
+    text-align: center;
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 1rem;
+}
+
+.header{
+    background: url('../Images/Header-21gif.gif');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    padding: 5rem 0 8.7rem 10rem;
+}
+
+.header-box{
+    display: inline-block;
+    padding-left: 9.5rem;
+
+}
+
+
+.h2t {
+    text-shadow: 4px 8px 15px #000000;
+    font-family: 'Licorice', cursive;
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+
+.h3t {
+    margin: 0;
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+h4 {
+    text-shadow: 2px 4px 10px #000000;
+    font-family: 'Licorice', cursive;
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
+
+.mail-button {
+    align-self: center;
+    justify-self: center;
+    height: 60px;
+}
+    
+.mail-button :hover {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+    transition: ease, 0.1s;
+    height: 70px
+}
+
+.my-skills {
+    position: relative;
+    margin: 0;
+    text-shadow: 2px 4px 10px #000000;
+    padding-top: 3rem;
+    padding-left: 6rem;
+}
+
+.navbar {
+    background: linear-gradient(#91AF7D, #E9E2D2);
+    font-family: 'Kaisei Tokumin', serif;
+    font-weight: 600;
+}
+
+.p-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-para {
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 1rem;
+    width: fit-content;
+}
+
+.profile-pic {
+    position: relative;
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+.qual {
+    background: url('../Images/Qual\ Bg.png');
+    background-size: cover;
+    padding-top: 2rem;
+    background-position: center;
+    width: 100%;
+}
+
+.qualifications {
+    width: 80%;
+    margin: 0;
+}
+
+.qual-item {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #6997BD , #1A70BF);
+    width: 12.5rem;
+    height: 6.25rem;
+    border: solid;
+    border-color: #000000;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+    
+.qual-item:hover {
+    cursor: pointer;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+    
+.qual-list {
+    padding: 0 0 2.5rem 3rem;
+    width: 100%;
+}
+
+.qual-title {
+    text-shadow: 8px 4px 10px #000000;
+    font-family: 'Licorice', cursive;
+    font-size: 2.5rem;
+    margin: 0 0 0.75rem 3rem;
+    color: white;
+}
+
+.qual-bot-row {
+    display: flex;
+    justify-content: center;
+}
+
+.row-pad{
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.row-skills{
+    text-align: left;
+}
+
+.subtitle {
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    font-size: 1.25rem;
+    font-family: 'Kaisei Tokumin', serif;
+    margin: 0;
+}
+
+.skill {
+    background: url('../Images/Skills\ Bg1.png');
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-position: center;
+}
+
+.skills {
+    height: auto;
+    width: 70%;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 3rem;
+    margin: auto;
+    font-family: 'Kaisei Tokumin', serif;
+}
+
+.skills-img {
+    height: 2.5rem;
+    border: white;
+    border-radius: 4px;
+}
+
+.skills-img :hover {
+    cursor: pointer;
+    height: 2.81rem;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+    transition: ease, 0.3s;
+}
+
+.title {
+    font-size: 5.6rem;
+    text-shadow: 2px 4px 10px #000000;
+    font-family: 'Licorice', cursive;
+    text-align: center;
+
+}
